@@ -1,0 +1,57 @@
+body {
+    font-family: "Tiro Devanagari Hindi", serif;
+}
+
+.file-label {
+    display: inline-block;
+    padding: 6px 16px;
+    background-color: #FF7601;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.custom-tooltip .tooltip-inner {
+    background-color: beige !important;
+    color: black !important;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.file-label i {
+    margin-right: 8px;
+}
+
+.btn-custom {
+    background-color: #006DD6;
+    border: none !important;
+    color: white !important;
+}
+
+.btn-custom:hover {
+    background-color: #02539F;
+}
+
+/* Hide number increment/decrement buttons */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+div sup {
+    color: red;
+}
+
+@media only screen and (max-width: 990px) {
+    #divNote {
+        top: 32% !important;
+    }
+}

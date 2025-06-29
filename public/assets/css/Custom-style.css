@@ -1,0 +1,189 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.dropbox-btn {
+    color: black;
+    background: whitesmoke;
+    border: none;
+}
+
+.custom-form-card {
+    box-shadow: none !important;
+}
+
+.card-header h4 {
+    margin-bottom: -10px;
+    margin-left: -17px;
+}
+
+.designforform {
+    
+    border: 1px solid #e6e6e6 !important;
+    padding: 30px;
+    border-radius: 8px;
+
+}
+
+html.dark .designforform {
+    background-color: #1F2028 !important;
+    border: 1px solid #e6e6e6 !important;
+
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.card-custom {
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 100%;
+}
+
+.status-badge {
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.nav-pills .nav-link {
+    color: black;
+}
+
+.nav-link {
+    margin: 2px;
+}
+
+
+.nav-pills .nav-link.active {
+    color: white !important;
+    background-color: #0d6efd;
+}
+
+.cards-shadow {
+    border-radius: 10px;
+}
+
+.icon {
+    padding: 5px 20px;
+    border-radius: 14px;
+}
+
+.icon-size {
+    font-size: small;
+    font-weight: 500;
+}
+
+.icon2 {
+    padding: 7px 14px;
+    border-radius: 13px;
+}
+
+@media (min-width:1024px) {
+    .media {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+
+}
+
+.leftbar-design {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.span-class-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.hindi-text {
+    font-weight: 300;
+}
+
+#side-menu li:hover {
+    background-color: rgb(242, 241, 241) !important;
+    border-radius: 5px !important;
+}
+
+#side-menu li:focus {
+
+    background: #007bff !important;
+    color: white !important;
+}
+#side-menu .nav-item.active{
+    background-color: #007bff !important;
+    color: white !important;
+
+}
+#sidebar-menu .menuitem-active .active, #sidebar-menu .menuitem-active>a{
+    text-decoration: none !important;
+    color:rgb(255, 255, 255) !important;
+     background-color: #007bff !important;
+     border-radius: 5px !important;
+}
+.nav-menu .nav-item.active {
+
+    background: #007bff !important;
+    color: white !important;
+    border-radius: 5px;
+
+}
+#sidebar-menu{
+    padding-top: 10px;
+}
+#sidebar-menu>ul>li>a{
+    text-decoration: none !important;
+}
+/* css for popup  */
+.section-title {
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .badge-stage {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+
+    .status-complete {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .status-pending {
+      background-color: #ffc107;
+      color: black;
+    }
+
+    .status-progress {
+      background-color: #0dcaf0;
+      color: black;
+    }
+
+    .timeline-step {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .timeline-step .step-icon {
+      font-size: 1.2rem;
+    }
+
+    .timeline-step .step-status {
+      flex-grow: 1;
+    }
+
+    .timeline-step .step-date {
+      font-size: 0.875rem;
+      color: #6c757d;
+    }
+
+    .btn-view {
+      width: 100%;
+    }
